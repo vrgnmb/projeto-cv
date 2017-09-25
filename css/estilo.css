@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background-color: #d9d9d9;     
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Karla', sans-serif;
+}
+
+a:hover{
+    color: #FFFFFF;
+}
+
+ul{
+    padding: 0;
+}
+
+
+.header{
+    background-color:#ff9999;
+    text-align: center;
+    padding: 20px 0;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.header h2{
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+.header h1{
+    margin-bottom: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.imagem-perfil{
+    width: 200px;
+    margin-top: 10px;
+}
+
+.navegacao{
+    margin-top: 30px;
+}
+
+.navegacao-list-item{
+    display: inline;
+    margin: 0 8px; /*primeiro valor (em cima e embaixo) segundo valor (esquerda e direita)
+    se tiver 4 valores as direções são em sentido horário começando pelo topo*/
+
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+
+main{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    background-color: #FFFFFF;
+}
+
+
+section{
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    padding-left: 20px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+section h3{
+    min-width: 220px;
+    padding-left: 130px;
+    font-family: 'Titillium Web', sans-serif;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+h4{
+    font-family: 'Karla', sans-serif;
+}
+
+.item{
+    padding-top: 4px;
+}
+
+.item2{
+    padding-top: 8px;
+}
+
+.listafonte{
+    font-family: 'Karla', sans-serif;
+}
+
+
+.p1{
+    padding-top: 10px;
+}
+
+p{
+   font-family: 'Karla', sans-serif;
+
+}
+
+
+.pfooter{
+    margin: 0 auto;
+}
+
+footer{
+    width: 60%;
+    background-color: #ff9999;
+    margin: 0 auto;
+    padding: 5px 0px;
+    text-align: center;
+}
+
